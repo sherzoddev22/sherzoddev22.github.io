@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+header{
+    background: url(../images/bg_index.jpg);
+}
+header .menu_top {
+    padding: 10px 0 !important;
+}
+header .menu_top .nav .nav-item .active {
+    color: #007d2f !important;
+}
+header .menu_top .nav .nav-item .nav-link {
+    color: #191919;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Montserrant', sans-serif;
+    font-weight: 500;
+}
+
+header .menu_top .web_design {
+    max-width: 448px;
+}
+
+header .menu_top .web_design h2 {
+    color: #1d1d1d;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 74px 0 30px 0;
+}
+
+header .menu_top .web_design p {
+    color: #787878;
+    font-family: "Montserrat - Thin";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23.9px;
+    text-align: left;
+    margin-bottom: 53px;
+}
+
+header .menu_top .web_design button {
+    width: 190px;
+    height: 54px;
+    background-color: #007d2f;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 280px;
+}
+.About_Us {
+    background-color: #ffffff;
+}
+
+.About_Us .need h2 {
+    margin: 96px 0 45px 0;
+    color: #191919;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.About_Us .need p {
+    margin-bottom: 51px;
+    color: #787878;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.73px;
+}
+
+.About_Us .need img {
+    margin-bottom: 42px;
+}
+.section {
+    background-color: #f6f6f6;
+}
+
+.section .about_text {
+    padding-top: 105px;
+    max-width: 450px;
+    margin: auto;
+}
+
+.section .about_text h2 {
+    color: #171717;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 60px 0 32px 0;
+}
+
+.section .about_text span {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+/* <!-- ========  About  ======== --> */
+
+.about {
+    background-color: #007d2f;
+}
+
+.about .project i {
+    font-size: 49px;
+    margin: 76px 0 8px 0;
+}
+
+.about .project h4 {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.about .project p {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+
+/* <!-- ========  End About  ======== --> */
+
+.item_img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.item_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.item_img:hover .item_hover {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+.item_img .item_hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: rotate(180deg);
+    transition: 500ms;
+}
+
+.item_img .item_hover .fa {
+    color: #fff;
+    font-size: 48px;
+}
+
+.load_more {
+    background-color: #007d2f;
+}
+
+.load_more .designer h2 {
+    margin: 46px 0 40px 0;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.our_work {
+    background-color: #fff;
+}
+
+.our_work .designer h3 {
+    margin: 97px 0 29px 0;
+    color: #191919;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.our_work .designer p {
+    color: #787878;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 47px;
+}
+
+
+/* <!-- ========  Services  ======== --> */
+
+.Services {
+    background-color: #f5f5f5;
+}
+
+.Services .project i {
+    color: #656565;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 109px 0 28px 0;
+}
+
+.Services .project h4 {
+    color: #191919;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.Services .project p {
+    color: #787878;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Services .project .end {
+    margin-bottom: 100px;
+}
+
+
+/* <!-- ========  End Services  ======== --> */
+
+.logos {
+    margin: 67px auto;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.need_a_project .need h2 {
+    color: #1d1d1d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 26px 0 33px 0;
+}
+
+.need_a_project .need p {
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+
+
+/* <!-- ========  Footer  ======== --> */
+
+footer {
+    background: #141414;
+    padding: 100px 0;
+}
+
+footer .left h3 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 19px;
+}
+
+footer .left p {
+    color: #bcbcbc;
+    font-family: "Myriad Pro";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+footer .text-center a,
+.left a,
+.right a,
+.center a {
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+@media(max-width: 767px) {
+    .section .about_text {
+        padding: 0;
+        /* margin: 0; */
+        display: flex;
+        flex-direction: column;
+    }
+    .section .about_text h2 {
+        margin-top: 10px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .section .about_text {
+        padding: 0;
+        margin: 10px;
+    }

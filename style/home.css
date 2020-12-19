@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header .menu__top{
+    padding: 10px 0 !important;
+}
+header  .menu__active{
+    color: #007d2f !important;
+    font-size: 12px;
+}
+header  .menu__link{
+    color: #191919 !important;
+    font-size: 12px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+/* ====== ========================STARTING SECTION======================= ========= */
+
+
+.section{
+    background: #007d2f;
+}
+.section .designer h2{
+    margin-top: 108px;
+    color: #171717;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+.section .designer p{
+    margin-top: 24px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 90px;
+
+}
+/* ====== ========================ENDING SECTION======================= ========= */
+
+/*====================CONTAINER FULIED STARTING===============================*/
+
+.item_img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+.item_img img{
+    width: 100%;
+    height: 100%;
+}
+.item_img:hover .item_hover{
+    opacity: 1;
+    transform: rotate(0deg);
+}
+.item_img .item_hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 255, 13, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: rotate(180deg);
+    transition: 500ms;
+}
+.item_img .item_hover .fa{
+    color: #fff;
+    font-size: 48px;
+}
+
+/*====================CONTAINER FULIED ENDING===============================*/
+
+/* ====== =======================FOOTER ENDING================================ */
+
+
+footer{
+    background: #141414;
+    padding: 100px 0;
+}
+footer .footer .left h3{
+    color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+     font-family: 'Montserrat', sans-serif;
+     margin-bottom: 19px;
+
+}
+footer .footer .left p{
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+}
+footer .footer .center a, .left a, .right a{
+    text-decoration: none;
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+}
+footer .footer .right ul li a{
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
